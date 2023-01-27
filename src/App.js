@@ -39,30 +39,30 @@ const App = () => {
                 </div>
 
                 <div className="w-full lg:w-4/6 space-y-6">
-                    <ProjectsContainer>
-                        <div className="flex items-center justify-between">
-                            <CardTitle>My Projects</CardTitle>
-                            <a href={ profile?.username ? `https://github.com/${profile?.username}?tab=repositories` : "#repositories" } target="_blank" rel="noreferrer" className="text-sm text-gray-400">
-                                See all
-                            </a>
-                        </div>
+                    {/*<ProjectsContainer>*/}
+                    {/*    <div className="flex items-center justify-between">*/}
+                    {/*        <CardTitle>My Projects</CardTitle>*/}
+                    {/*        <a href={ profile?.username ? `https://github.com/${profile?.username}?tab=repositories` : "#repositories" } target="_blank" rel="noreferrer" className="text-sm text-gray-400">*/}
+                    {/*            See all*/}
+                    {/*        </a>*/}
+                    {/*    </div>*/}
 
-                        {/*<div className="grid grid-cols-1 md:grid-cols-2 gap-6">*/}
-                        {/*    {loading ? (*/}
-                        {/*        <>*/}
-                        {/*            {[0, 1, 2, 3, 4, 5].map((item, index) => (*/}
-                        {/*                <SkeletonProject key={index}/>*/}
-                        {/*            ))}*/}
-                        {/*        </>*/}
-                        {/*    ) : (*/}
-                        {/*        <>*/}
-                        {/*            {data?.items.map((item, index) => (*/}
-                        {/*                <Project key={index} data={item}/>*/}
-                        {/*            ))}*/}
-                        {/*        </>*/}
-                        {/*    )}*/}
-                        {/*</div>*/}
-                    </ProjectsContainer>
+                    {/*    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">*/}
+                    {/*        {loading ? (*/}
+                    {/*            <>*/}
+                    {/*                {[0, 1, 2, 3, 4, 5].map((item, index) => (*/}
+                    {/*                    <SkeletonProject key={index}/>*/}
+                    {/*                ))}*/}
+                    {/*            </>*/}
+                    {/*        ) : (*/}
+                    {/*            <>*/}
+                    {/*                {data?.items.map((item, index) => (*/}
+                    {/*                    <Project key={index} data={item}/>*/}
+                    {/*                ))}*/}
+                    {/*            </>*/}
+                    {/*        )}*/}
+                    {/*    </div>*/}
+                    {/*</ProjectsContainer>*/}
 
                     <ProjectsContainer>
                         <CardTitle>A recent project that can be tested</CardTitle>
