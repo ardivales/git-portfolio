@@ -47,21 +47,21 @@ const App = () => {
                             </a>
                         </div>
 
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            {loading ? (
-                                <>
-                                    {[0, 1, 2, 3, 4, 5].map((item, index) => (
-                                        <SkeletonProject key={index}/>
-                                    ))}
-                                </>
-                            ) : (
-                                <>
-                                    {data?.items.map((item, index) => (
-                                        <Project key={index} data={item}/>
-                                    ))}
-                                </>
-                            )}
-                        </div>
+                        {/*<div className="grid grid-cols-1 md:grid-cols-2 gap-6">*/}
+                        {/*    {loading ? (*/}
+                        {/*        <>*/}
+                        {/*            {[0, 1, 2, 3, 4, 5].map((item, index) => (*/}
+                        {/*                <SkeletonProject key={index}/>*/}
+                        {/*            ))}*/}
+                        {/*        </>*/}
+                        {/*    ) : (*/}
+                        {/*        <>*/}
+                        {/*            {data?.items.map((item, index) => (*/}
+                        {/*                <Project key={index} data={item}/>*/}
+                        {/*            ))}*/}
+                        {/*        </>*/}
+                        {/*    )}*/}
+                        {/*</div>*/}
                     </ProjectsContainer>
 
                     <ProjectsContainer>
