@@ -18,7 +18,7 @@ const Footer = () => {
     return (
         <div className="flex items-center justify-center pb-7">
             <a
-                href="https://github.com/onesine/git-profile"
+                href="https://github.com/ardivales/git-profile"
                 target="_blank"
                 rel="noreferrer"
                 className={`border ${themeSwitcher.link} px-4 py-3 text-sm border rounded-md shadow-lg`}
