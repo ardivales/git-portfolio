@@ -16,10 +16,10 @@ const config = {
                 icon: (<MapPinIcon className="h-4 w-4"/>)
             },
             {
-                link: "https://www.dmdsatis.com/",
+                link: "#",
                 data: {
                     text: "Company",
-                    value: "Label Trust"
+                    value: "Africa Stream"
                 },
                 icon: (<BuildingOfficeIcon className="h-4 w-4"/>)
             },
@@ -56,16 +56,11 @@ const config = {
                 icon: (<EnvelopeIcon className="h-4 w-4"/>)
             },
         ],
-        techStack: ["PHP", "Phalcon", "Java", "Spring Boot", "Wordpress", "Woocommerce", "MySQL", "Postgres", "Git", "Dockers"],
+        techStack: ["PHP", "Phalcon", "Java", "Spring Boot", "Wordpress", "Woocommerce", "MySQL", "Postgres", "Git", "Dockers", "Nginx", "Github Actions", "AWS", "HTML", "CSS", "JavaScript"],
         experience: [
             {
-                period: "January 2022 - Today",
-                position: "Full-stack Developer",
-                institution: "Label Trust"
-            },
-            {
-                period: "August 2022 - November 2022",
-                position: "Backend Developer | Internship",
+                period: "August 2022 - Today",
+                position: "Software Engineer",
                 institution: "Africa Stream"
             },
             {
@@ -125,11 +120,11 @@ const config = {
             },
             {
                 image: "logo.svg",
-                link: "http://frontend.lacompassion.drtoho.com/lacompassion-frontend/public/users.html",
+                link: "https://frontend-compassion.vercel.app",
                 title: "La compassion",
                 description: "Management of an ophthalmology clinic.",
                 date: "Still in development",
-                techStack: ["Spring Boot", "React", "HTML", "Dockers", "AWS", "Postgres"]
+                techStack: ["Spring Boot", "React", "HTML", "Dockers", "AWS", "Postgres", "Nginx", "Github Actions"]
             },
             {
                 image: "screenshot-2.png",
